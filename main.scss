@@ -1,0 +1,764 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+i {
+    color: #8ca1fe;
+}
+
+@media screen and (min-width: 280px) {
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        background-color: black;
+        color: white;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        flex-direction: column;
+
+        .author-name {
+            font-size: 1.5rem;
+            margin: .5rem;
+        }
+
+        .navbar-links {
+            display: none;
+            width: 100%;
+
+            ul {
+                flex-direction: column;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                display: flex;
+
+                li {
+                    flex-direction: column;
+                    list-style: none;
+                    text-align: center;
+                    display: flex;
+
+                    a {
+                        text-decoration: none;
+                        padding: .5rem 1rem;
+                        display: flex;
+                        color: white;
+                        justify-content: center;
+                        align-items: center;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .navbar-links.active {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .toggle-button {
+            position: absolute;
+            top: 0rem;
+            right: 0.1rem;
+            justify-content: space-between;
+            flex-direction: column;
+            width: 30px;
+            height: 21px;
+            z-index: 2;
+            display: flex;
+            margin-top: 0;
+            padding-top: 0;
+
+            i {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 5px;
+                padding-right: 20px;
+
+            }
+        }
+    }
+
+
+    .home {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        background-image: url(./assets/home-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 0px;
+        padding: 0px;
+
+        .home-container {
+            height: 100%;
+            width: 80%;
+        }
+
+        article {
+            width: 100%;
+            height: 60%;
+            margin: auto;
+            padding-top: 40px;
+            margin-top: 100px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 10px;
+
+            h1 {
+                color: white;
+                font-size: 30px;
+                font-weight: 600;
+                margin: 80px 0 50px 0;
+            }
+
+            p {
+                color: white;
+                line-height: 20px;
+                width: 440px;
+                justify-content: flex-start;
+                display: none;
+            }
+
+            .typewriter {
+                display: none;
+            }
+
+            .mobile-home-text {
+                display: block;
+                color: white;
+            }
+        }
+    }
+
+    /*about section */
+
+    .about-heading {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 20px 0;
+        background-color: black;
+        color: #48beff;
+        text-decoration: underline;
+
+        h2 {
+            font-size: 36px;
+            font-weight: bold;
+        }
+    }
+
+    .about {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 0px 0;
+        background-color: black;
+        color: white;
+        text-align: center;
+
+        .text-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: auto;
+            padding: 50px 20px 0 20px;
+            background-color: black;
+        }
+
+        .img-container {
+            display: flex;
+            width: auto;
+            justify-content: center;
+
+            img {
+                height: 200px;
+                width: 200px;
+                -webkit-filter: grayscale(100%);
+                /* Safari 6.0 - 9.0 */
+                filter: grayscale(100%);
+
+                &:hover {
+                    -webkit-filter: grayscale(0%);
+                    /* Safari 6.0 - 9.0 */
+                    filter: grayscale(0%);
+                }
+            }
+        }
+
+        h3 {
+            display: flex;
+            justify-content: center;
+            color: #43c59e;
+            padding-top: 10px;
+        }
+    }
+
+    /*projects section */
+
+    .projects {
+        width: 100%;
+        height: auto;
+        display: grid;
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-row-gap: 50px;
+        background-color: black;
+        color: white;
+        padding-top: 40px;
+
+        .project {
+            position: relative;
+            width: 450px;
+            margin: auto;
+            border: 2px solid black;
+            height: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            background-color: black;
+
+            .image-img {
+                display: block;
+                width: 100%;
+                border-radius: 5px;
+            }
+
+            .image-title {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                font-size: 1.5em;
+                font-weight: bold;
+                color: #43c59e;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: flex-start;
+            }
+
+            .icon-c {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                align-items: flex-end;
+                justify-content: space-around;
+                padding-bottom: 10px;
+            }
+
+            .image-overlay {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.6);
+                color: white;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                opacity: 0;
+                transition: opacity 0.25s;
+
+
+
+                /* target every direct child of the div with this class */
+                >* {
+                    transform: translateY(20px);
+                    transition: 0.25s;
+                }
+
+                &:hover {
+                    opacity: 1;
+                    border-radius: 5px;
+
+                    >* {
+                        transform: translateY(20px);
+                    }
+                }
+
+                .icon-c {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: flex-end;
+                    justify-content: space-around;
+                    padding-bottom: 10px;
+                }
+
+                .image-description {
+                    margin-top: 0.3em;
+                }
+            }
+
+            .blur {
+                backdrop-filter: blur(5px);
+            }
+        }
+    }
+
+    #contact-section {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+        height: 60vh;
+        width: 100%;
+        font-size: 20px;
+        padding: 0px;
+        margin: 0px;
+        align-items: center;
+        text-align: center;
+
+        p {
+            margin: 20px;
+            font-size: 20px;
+            text-decoration: none;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+
+    footer {
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        color: white;
+        align-items: center;
+        width: 100%;
+        height: 20vh;
+    }
+
+    footer i {
+        margin-left: 40px;
+        margin-right: 40px;
+        color: #8ca1fe;
+        background-color: black;
+        align-items: center;
+    }
+
+    footer p {
+        text-decoration: none;
+
+    }
+
+    span {
+        text-decoration: underline;
+        color: #3dfaff;
+    }
+}
+
+
+@media screen and (min-width: 300px) {
+
+    .home {
+        padding: 20px;
+    }
+
+    .home-container {
+        width: 100%;
+    }
+
+    article h1 {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 400px) {
+
+
+
+    .home {
+
+        padding: 40px;
+
+        .home-container {
+            height: 100%;
+            width: 100%;
+        }
+
+        article h1 {
+            font-size: 50px;
+        }
+
+    }
+
+    .about .text-container {
+        width: 500px;
+    }
+
+    #contact-section {
+        height: 50vh;
+    }
+
+    footer {
+        height: 20vh;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .home {
+
+        .home-container {
+
+            article {
+                width: 100%;
+                height: 60%;
+                margin: auto;
+                padding-top: 40px;
+                margin-top: 100px;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-start;
+                margin-left: 10px;
+
+                h1 {
+                    color: white;
+                    font-size: 50px;
+                    font-weight: 600;
+                    margin: 80px 0 50px 0;
+                }
+
+                p {
+                    color: white;
+                    line-height: 20px;
+                    width: 440px;
+                    justify-content: flex-start;
+                    display: flex;
+                }
+
+                .typewriter {
+                    display: flex;
+                    position: relative;
+                    justify-content: flex-start;
+                    color: #fff;
+                    font-family: monospace;
+                    overflow: hidden;
+                    /* Ensures the content is not revealed until the animation */
+                    border-right: .15em solid orange;
+                    /* The typwriter cursor */
+                    white-space: nowrap;
+                    /* Keeps the content on a single line */
+                    margin: 0 auto;
+                    /* Gives that scrolling effect as the typing happens */
+                    letter-spacing: .15em;
+                    /* Adjust as needed */
+                    animation:
+                        typing 3.5s steps(30, end),
+                        blink-caret .5s step-end infinite;
+                }
+
+                /* The typing effect */
+                @keyframes typing {
+                    from {
+                        width: 0
+                    }
+
+                    to {
+                        width: 60%
+                    }
+                }
+
+                /* The typewriter cursor effect */
+                @keyframes blink-caret {
+
+                    from,
+                    to {
+                        border-color: transparent
+                    }
+
+                    50% {
+                        border-color: orange
+                    }
+                }
+
+                @keyframes slidein {
+                    0% {
+                        opacity: 0;
+                    }
+
+                    100% {
+                        opacity: 1;
+                    }
+                }
+
+                .mobile-home-text {
+                    display: none;
+                    color: white;
+                }
+            }
+        }
+
+    }
+
+    footer {
+        height: 30vh;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        align-items: center;
+        background-color: black;
+        color: white;
+        width: 100%;
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 2;
+
+        .author-name {
+            font-size: 1.5rem;
+            margin: .5rem;
+            width: 200px
+
+        }
+
+        .navbar-links {
+            display: block;
+            width: 100%;
+
+            ul {
+                flex-direction: row;
+                margin: 0;
+                padding: 0;
+                width: 100%;
+                display: flex;
+                justify-content: flex-end;
+
+                li {
+                    list-style: none;
+                    text-align: center;
+
+                    a {
+                        text-decoration: none;
+                        padding: .5rem 1rem;
+                        display: block;
+                        color: white;
+                    }
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+
+        .navbar-links.active {
+            display: flex;
+        }
+
+        .toggle-button {
+            display: none;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            width: 30px;
+            height: 21px;
+            z-index: 2;
+            margin-bottom: 20px;
+            padding-top: 0;
+            margin-top: 0;
+
+            i {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-top: 20px;
+                padding-right: 20px;
+
+            }
+        }
+    }
+
+    .home {
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        background-image: url(./assets/home-background.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        .home-container {
+            height: 100%;
+            width: 100%;
+        }
+
+        article {
+            width: 100%;
+            height: 60%;
+            padding-top: 40px;
+            margin-top: 100px;
+            flex-direction: column;
+
+            h1 {
+                color: white;
+                font-size: 50px;
+                font-weight: 600;
+                margin: 80px 0 50px 0;
+            }
+
+            p {
+                color: white;
+                line-height: 20px;
+                width: 550px;
+                justify-content: flex-start;
+                margin-left: 10px;
+                padding-left: 0px;
+                font-size: 14px;
+
+
+                .typewriter {
+                    display: block;
+                }
+            }
+        }
+        
+        img{
+            height: 50px;
+        }
+        .about {
+            height: 120%;
+        }
+
+        .projects {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .home {
+
+        .home-container {
+
+            article {
+                width: 100%;
+                height: 60%;
+                margin: auto;
+                padding-top: 40px;
+                margin-top: 100px;
+                justify-content: flex-start;
+                margin-left: 0px;
+
+                h1 {
+                    color: white;
+                    font-size: 50px;
+                    font-weight: 600;
+                    margin: 80px 0 50px 0;
+                }
+
+                p {
+                    color: white;
+                    line-height: 20px;
+                    width: 750px;
+                    justify-content: flex-start;
+                    display: flex;
+                    margin-left: 0;
+                    font-size: 14px;
+                }
+
+                .typewriter {
+                    display: flex;
+                    justify-content: flex-start;
+                    color: #fff;
+                    font-family: monospace;
+                    overflow: hidden;
+                    /* Ensures the content is not revealed until the animation */
+                    border-right: .15em solid orange;
+                    /* The typwriter cursor */
+                    white-space: nowrap;
+                    /* Keeps the content on a single line */
+                    margin: 0 auto;
+                    /* Gives that scrolling effect as the typing happens */
+                    letter-spacing: .15em;
+                    /* Adjust as needed */
+                    animation:
+                        typing 3.5s steps(30, end),
+                        blink-caret .5s step-end infinite;
+                }
+
+                /* The typing effect */
+                @keyframes typing {
+                    from {
+                        width: 0
+                    }
+
+                    to {
+                        width: 60%
+                    }
+                }
+
+                /* The typewriter cursor effect */
+                @keyframes blink-caret {
+
+                    from,
+                    to {
+                        border-color: transparent
+                    }
+
+                    50% {
+                        border-color: orange
+                    }
+                }
+
+                @keyframes slidein {
+                    0% {
+                        opacity: 0;
+                    }
+
+                    100% {
+                        opacity: 1;
+                    }
+                }
+
+                .mobile-home-text {
+                    display: none;
+                    color: white;
+                }
+            }
+        }
+
+}
+}
