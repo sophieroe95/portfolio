@@ -81,7 +81,7 @@ header h2 {
   }
   .navbar .toggle-button {
     position: absolute;
-    top: 0rem;
+    top: 0.5rem;
     right: 0.1rem;
     justify-content: space-between;
     flex-direction: column;
@@ -196,7 +196,10 @@ header h2 {
     display: flex;
     justify-content: center;
     color: #43c59e;
-    padding-top: 10px;
+    padding-top: 20px;
+  }
+  .about p {
+    margin-top: 20px;
   }
 
   /*projects section */

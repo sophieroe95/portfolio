@@ -20,7 +20,7 @@ i {
 
 body {
     margin: 0
-  }
+}
 
 header {
     width: 100%;
@@ -98,7 +98,7 @@ header {
 
         .toggle-button {
             position: absolute;
-            top: 0rem;
+            top: 0.5rem;
             right: 0.1rem;
             justify-content: space-between;
             flex-direction: column;
@@ -150,7 +150,7 @@ header {
             background-repeat: no-repeat;
             background-size: cover;
             background-position: 50% 50%;
-          }        
+        }
 
         article {
             width: 100%;
@@ -229,7 +229,11 @@ header {
             display: flex;
             justify-content: center;
             color: $green;
-            padding-top: 10px;
+            padding-top: 20px;
+        }
+
+        p {
+            margin-top: 20px;
         }
     }
 
@@ -254,7 +258,7 @@ header {
             position: relative;
             width: 450px;
             margin: auto;
-            border: 2px solid$black;
+            border: 2px solid $black;
             height: 300px;
             display: flex;
             flex-wrap: wrap;
@@ -341,7 +345,7 @@ header {
             font-size: 20px;
             text-decoration: none;
 
-           
+
         }
 
         a {
@@ -449,6 +453,7 @@ footer {
             }
 
             @keyframes typing {
+
                 /*the typing effect*/
                 from {
                     width: 0
@@ -460,6 +465,7 @@ footer {
             }
 
             @keyframes blink-caret {
+
                 /*the typing cursor effect*/
                 from,
                 to {
@@ -575,11 +581,11 @@ footer {
     }
 
     .skills {
-       grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
 
-       .skill {
-           width: 300px;
-       }
+        .skill {
+            width: 300px;
+        }
     }
 
 }
@@ -599,7 +605,7 @@ footer {
 
         .typewriter {
 
-    
+
             @keyframes typing {
                 from {
                     width: 0
@@ -626,7 +632,7 @@ footer {
         }
     }
 
-    .grid-container .grid-section{
+    .grid-container .grid-section {
 
         .image-title .mobile-text {
             display: none;
