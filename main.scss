@@ -370,10 +370,10 @@ footer {
     color: white;
     align-items: center;
     width: 100%;
-    height: 
+    height: auto;
 
-    i {
-        margin: 40px;
+    .fab {
+        padding: 40px;
         color: #8ca1fe;
         background-color: $black;
         align-items: center;

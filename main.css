@@ -309,11 +309,13 @@ footer {
   color: white;
   align-items: center;
   width: 100%;
-  height: i;
-  height-margin: 40px;
-  height-color: #8ca1fe;
-  height-background-color: black;
-  height-align-items: center;
+  height: auto;
+}
+footer .fab {
+  padding: 40px;
+  color: #8ca1fe;
+  background-color: black;
+  align-items: center;
 }
 
 @media screen and (min-width: 300px) {
