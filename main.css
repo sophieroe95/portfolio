@@ -309,13 +309,11 @@ footer {
   color: white;
   align-items: center;
   width: 100%;
-  height: auto;
-}
-footer i {
-  margin: 40px 40px 0 40px;
-  color: #8ca1fe;
-  background-color: black;
-  align-items: center;
+  height: i;
+  height-margin: 40px;
+  height-color: #8ca1fe;
+  height-background-color: black;
+  height-align-items: center;
 }
 
 @media screen and (min-width: 300px) {
