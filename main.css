@@ -395,10 +395,6 @@ footer i {
     color: white;
   }
 }
-footer {
-  height: 30vh;
-}
-
 @media screen and (min-width: 800px) {
   .navbar {
     flex-direction: row;
