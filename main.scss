@@ -252,7 +252,7 @@ header {
         grid-row-gap: 100px;
         background-color: $black;
         color: white;
-        padding: 60px 0px;
+        padding: 20px 0px;
 
         .grid-section {
             position: relative;
@@ -488,9 +488,10 @@ footer {
         flex-direction: row;
         align-items: center;
         background-color: $black;
+        width: 100%;
 
         .author-name {
-            width: 200px
+            width: 200px;
         }
 
         .navbar-links {

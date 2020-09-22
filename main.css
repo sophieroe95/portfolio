@@ -210,7 +210,7 @@ header h2 {
     grid-row-gap: 100px;
     background-color: black;
     color: white;
-    padding: 60px 0px;
+    padding: 20px 0px;
   }
   .grid-container .grid-section {
     position: relative;
@@ -400,6 +400,7 @@ footer .fab {
     flex-direction: row;
     align-items: center;
     background-color: black;
+    width: 100%;
   }
   .navbar .author-name {
     width: 200px;
