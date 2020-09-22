@@ -207,7 +207,7 @@ header h2 {
     flex-wrap: wrap;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-row-gap: 50px;
+    grid-row-gap: 100px;
     background-color: black;
     color: white;
     padding: 60px 0px;
