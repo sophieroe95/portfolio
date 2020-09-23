@@ -418,6 +418,8 @@ footer .fab {
   .navbar .navbar-links ul {
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
+    margin: 0;
   }
   .navbar .navbar-links ul li {
     list-style: none;
