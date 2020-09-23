@@ -49,8 +49,8 @@ header h2 {
   .navbar .navbar-links {
     display: none;
     width: 100%;
-    align-items: center;
     justify-content: center;
+    align-items: center;
   }
   .navbar .navbar-links ul {
     flex-direction: column;
@@ -62,6 +62,8 @@ header h2 {
     flex-direction: column;
     list-style: none;
     text-align: center;
+    justify-content: center;
+    align-items: center;
     display: flex;
   }
   .navbar .navbar-links ul li a {
@@ -402,24 +404,21 @@ footer .fab {
 }
 @media screen and (min-width: 800px) {
   .navbar {
-    display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-between;
     background-color: black;
+    width: 100%;
   }
   .navbar .author-name {
     width: 200px;
   }
   .navbar .navbar-links {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+    display: block;
   }
   .navbar .navbar-links ul {
-    display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
   }
   .navbar .navbar-links ul li {
     list-style: none;
@@ -427,15 +426,11 @@ footer .fab {
   }
   .navbar .navbar-links ul li a {
     text-decoration: none;
-    padding: 0.5rem 1rem;
     display: block;
     color: white;
   }
   .navbar .navbar-links ul li:hover {
     text-decoration: underline;
-  }
-  .navbar .navbar-links.active {
-    display: flex;
   }
   .navbar .toggle-button {
     display: none;
