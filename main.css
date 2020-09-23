@@ -402,7 +402,6 @@ footer .fab {
 }
 @media screen and (min-width: 800px) {
   .navbar {
-    flex-direction: row;
     align-items: center;
     background-color: black;
   }
@@ -416,6 +415,7 @@ footer .fab {
     justify-content: center;
   }
   .navbar .navbar-links ul {
+    display: flex;
     flex-direction: row;
     justify-content: center;
   }
