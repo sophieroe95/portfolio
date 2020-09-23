@@ -49,6 +49,8 @@ header h2 {
   .navbar .navbar-links {
     display: none;
     width: 100%;
+    align-items: center;
+    justify-content: center;
   }
   .navbar .navbar-links ul {
     flex-direction: column;
