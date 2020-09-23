@@ -405,7 +405,6 @@ footer .fab {
     flex-direction: row;
     align-items: center;
     background-color: black;
-    width: 100%;
   }
   .navbar .author-name {
     width: 200px;
