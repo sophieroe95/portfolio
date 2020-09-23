@@ -495,8 +495,10 @@ footer {
         }
 
         .navbar-links {
-            display: block;
+            display: flex;
             width: 100%;
+            align-items: center;
+            justify-content: center;
 
             ul {
                 flex-direction: row;

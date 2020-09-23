@@ -411,8 +411,10 @@ footer .fab {
     width: 200px;
   }
   .navbar .navbar-links {
-    display: block;
+    display: flex;
     width: 100%;
+    align-items: center;
+    justify-content: center;
   }
   .navbar .navbar-links ul {
     flex-direction: row;
