@@ -417,7 +417,7 @@ footer .fab {
   }
   .navbar .navbar-links ul {
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
   }
   .navbar .navbar-links ul li {
     list-style: none;
