@@ -61,7 +61,7 @@ header {
         .navbar-links {
             display: none;
             width: 100%;
-            justify-content: center;
+            justify-content: flex-end;
             align-items: center;
 
             ul {
@@ -75,7 +75,6 @@ header {
                     list-style: none;
                     text-align: center;
                     justify-content: center;
-                    align-items: center;
                     display: flex;
 
                     a {
@@ -498,11 +497,11 @@ footer {
 
         .navbar-links {
             display: block;
+            width: 100%;
 
             ul {
                 flex-direction: row;
                 justify-content: flex-end;
-                align-items: center;
 
                 li {
                     list-style: none;
@@ -510,6 +509,7 @@ footer {
 
                     a {
                         text-decoration: none;
+                        padding: .5rem 1rem;
                         display: block;
                         color: white;
                     }
@@ -519,6 +519,10 @@ footer {
                     }
                 }
             }
+        }
+
+        .navbar-links.active {
+            display: flex;
         }
 
         .toggle-button {

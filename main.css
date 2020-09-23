@@ -49,7 +49,7 @@ header h2 {
   .navbar .navbar-links {
     display: none;
     width: 100%;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
   }
   .navbar .navbar-links ul {
@@ -63,7 +63,6 @@ header h2 {
     list-style: none;
     text-align: center;
     justify-content: center;
-    align-items: center;
     display: flex;
   }
   .navbar .navbar-links ul li a {
@@ -414,11 +413,11 @@ footer .fab {
   }
   .navbar .navbar-links {
     display: block;
+    width: 100%;
   }
   .navbar .navbar-links ul {
     flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
   }
   .navbar .navbar-links ul li {
     list-style: none;
@@ -426,11 +425,15 @@ footer .fab {
   }
   .navbar .navbar-links ul li a {
     text-decoration: none;
+    padding: 0.5rem 1rem;
     display: block;
     color: white;
   }
   .navbar .navbar-links ul li:hover {
     text-decoration: underline;
+  }
+  .navbar .navbar-links.active {
+    display: flex;
   }
   .navbar .toggle-button {
     display: none;
