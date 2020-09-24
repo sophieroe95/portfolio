@@ -244,7 +244,7 @@ header h2 {
   align-items: center;
   justify-content: flex-start;
 }
-.grid-container .grid-section .mobile-text {
+.grid-container .grid-section .image-title .mobile-text {
   color: white;
   font-size: 1rem;
   justify-content: center;
