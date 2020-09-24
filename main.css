@@ -253,13 +253,13 @@ header h2 {
   align-items: center;
   margin-top: 40px;
 }
-.grid-container .grid-section .image-title .icon-container-m {
+.grid-container .grid-section .icon-container {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  display: flex;
+  display: none;
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-around;
