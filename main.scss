@@ -328,8 +328,12 @@ header {
             border-radius: 5px;
         }
 
-        .image-overlay .image-description {
+        .image-overlay {
             display: none;
+        }
+
+        .blur {
+            display:none
         }
 
     }
