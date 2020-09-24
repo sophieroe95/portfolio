@@ -271,7 +271,7 @@ header {
         background-color: $black;
 
 
-        .image-title-m {
+        .image-title {
             position: absolute;
             top: 0;
             left: 0;
@@ -297,7 +297,7 @@ header {
         }
 
 
-        .icon-container-m {
+        .icon-container {
             position: absolute;
             top: 0;
             left: 0;
@@ -316,7 +316,7 @@ header {
             border-radius: 5px;
         }
 
-        .image-overlay .image-description .icon-container .blur {
+        .image-overlay .image-description {
             display: none;
         }
 

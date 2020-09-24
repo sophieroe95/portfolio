@@ -230,7 +230,7 @@ header h2 {
   align-items: center;
   background-color: black;
 }
-.grid-container .grid-section .image-title-m {
+.grid-container .grid-section .image-title {
   position: absolute;
   top: 0;
   left: 0;
@@ -253,7 +253,7 @@ header h2 {
   align-items: center;
   margin-top: 40px;
 }
-.grid-container .grid-section .icon-container-m {
+.grid-container .grid-section .icon-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -270,7 +270,7 @@ header h2 {
   width: 100%;
   border-radius: 5px;
 }
-.grid-container .grid-section .image-overlay .image-description .icon-container .blur {
+.grid-container .grid-section .image-overlay .image-description {
   display: none;
 }
 
