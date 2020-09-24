@@ -297,7 +297,7 @@ header {
 
         }
 
-        .icon-container {
+        .icon-container-m {
             position: absolute;
             top: 0;
             left: 0;
@@ -316,7 +316,7 @@ header {
             border-radius: 5px;
         }
 
-        .image-overlay .image-description {
+        .image-overlay .image-description  .icon-container{
             display: none;
         }
 
