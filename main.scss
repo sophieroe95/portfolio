@@ -285,16 +285,17 @@ header {
             align-items: center;
             justify-content: flex-start;
 
-            .mobile-text {
-                color: white;
-                font-size: 1rem;
-                justify-content: center;
-                display: flex;
-                position: absolute;
-                align-items: center;
-                margin-top: 40px;
-            }
+           
 
+        }
+        .mobile-text {
+            color: white;
+            font-size: 1rem;
+            justify-content: center;
+            display: flex;
+            position: absolute;
+            align-items: center;
+            margin-top: 40px;
         }
 
         .icon-container-m {
@@ -328,7 +329,7 @@ header {
             border-radius: 5px;
         }
 
-        .image-overlay .image-description {
+        .image-overlay .image-description .blur {
             display: none;
         }
 
