@@ -223,7 +223,7 @@ header h2 {
   width: 450px;
   margin: auto;
   border: 2px solid black;
-  height: 300px;
+  height: 600px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -244,27 +244,6 @@ header h2 {
   align-items: center;
   justify-content: flex-start;
 }
-.grid-container .grid-section .image-title .mobile-text {
-  color: white;
-  font-size: 1rem;
-  justify-content: center;
-  display: flex;
-  position: absolute;
-  align-items: center;
-  margin-top: 40px;
-}
-.grid-container .grid-section .icon-container-m {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: space-around;
-  padding-bottom: 10px;
-}
 .grid-container .grid-section .icon-container {
   position: absolute;
   top: 0;
@@ -282,8 +261,62 @@ header h2 {
   width: 100%;
   border-radius: 5px;
 }
-.grid-container .grid-section .image-overlay .blur {
-  display: none;
+.grid-container .grid-section p {
+  display: block;
+}
+.grid-container .grid-section p:hover {
+  display: block;
+}
+
+.skills-container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 80px;
+  background-color: black;
+  color: white;
+  padding: 20px 0px;
+}
+.skills-container .grid-section {
+  position: relative;
+  width: 450px;
+  margin: auto;
+  border: 2px solid black;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+.skills-container .grid-section .image-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #43c59e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.skills-container .grid-section .proj-bg-img {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+}
+.skills-container .grid-section p {
+  display: block;
+}
+.skills-container .grid-section p:hover {
+  display: block;
 }
 
 /*contact section*/
