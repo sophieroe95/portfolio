@@ -43,9 +43,8 @@ insertProjects();
 const createSkillsHTML = (skillObject) => {
   return `
       <div class="grid-section">
-            <div class="image-title">${skillObject.title}<div class="mobile-text">${skillObject.text}</div>
+            <div class="image-title">${skillObject.title}
             </div>
-            <img class="proj-bg-img" src="${skillObject.image}" alt="${skillObject.title}">
             <p class="image-description">${skillObject.text}
         </p>
         </div>

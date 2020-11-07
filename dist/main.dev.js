@@ -33,7 +33,7 @@ var insertProjects = function insertProjects() {
 insertProjects();
 
 var createSkillsHTML = function createSkillsHTML(skillObject) {
-  return "\n      <div class=\"grid-section\">\n            <div class=\"image-title\">".concat(skillObject.title, "<div class=\"mobile-text\">").concat(skillObject.text, "</div>\n            </div>\n            <img class=\"proj-bg-img\" src=\"").concat(skillObject.image, "\" alt=\"").concat(skillObject.title, "\">\n            <p class=\"image-description\">").concat(skillObject.text, "\n        </p>\n        </div>\n      ");
+  return "\n      <div class=\"grid-section\">\n            <div class=\"image-title\">".concat(skillObject.title, "\n            </div>\n            <p class=\"image-description\">").concat(skillObject.text, "\n        </p>\n        </div>\n      ");
 };
 
 var insertSkills = function insertSkills() {

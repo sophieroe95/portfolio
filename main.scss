@@ -309,9 +309,6 @@ header {
     p {
         display: block;
 
-        &:hover {
-            display: block;
-        }
     }
 
     }
@@ -348,6 +345,7 @@ header {
             position: absolute;
             top: 0;
             left: 0;
+            margin-bottom: 10px;;
             width: 100%;
             height: 100%;
             font-size: 1.5em;
@@ -362,15 +360,12 @@ header {
         .proj-bg-img {
             display: block;
             width: 100%;
+            height: 250px;
             border-radius: 5px;
         }
 
     p {
         display: block;
-
-        &:hover {
-            display: block;
-        }
     }
 
     }
