@@ -56,7 +56,7 @@ const projects = [{
   },
   {
     title: "To Do List",
-    text: "Week 8 and 9: In week 9 we covered unit testing in React, Firebase - intro and hosting, Firestore - Create, Read, Update, Delete, Authenticationa and Authorisation and Private Routing. In week 9 we learnt about context, how we should use it and the focus on Provider/Consumer Cycle. We also started learning Node.js for API development. The challenge this week was to read (GET), create (POST) and delete (DELETE) data using our own Node.js API and Mongodb.",
+    text: "Week 8 and 9: In week 9 we covered unit testing in React, Firebase - intro and hosting, Firestore - Create, Read, Update, Delete, Authenticationa and Authorisation and Private Routing. In week 9 we learnt about context, how we should use it and the focus on Provider/Consumer Cycle. We also started learning Node.js for API development. The challenge this week was to build our own Full Stack API to read (GET), create (POST) and delete (DELETE) data using Node.js and Mongodb.",
     image: "./static/img/project9.png",
     openGithub: "https://github.com/sophieroe95/to-do-list",
     openPage: "https://sophieroe95.github.io/to-do-list/",
