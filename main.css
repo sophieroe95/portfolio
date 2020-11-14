@@ -223,7 +223,7 @@ header h2 {
   width: 450px;
   margin: auto;
   border: 2px solid black;
-  height: 600px;
+  height: 520px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -235,8 +235,9 @@ header h2 {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 520px;
   font-size: 1.5em;
+  margin: 0px;
   font-weight: bold;
   color: #43c59e;
   display: flex;
@@ -246,7 +247,7 @@ header h2 {
 }
 .grid-container .grid-section .icon-container {
   position: absolute;
-  top: 0;
+  top: 10%;
   left: 0;
   width: 100%;
   height: 100%;
@@ -254,15 +255,19 @@ header h2 {
   flex-direction: row;
   align-items: flex-end;
   justify-content: space-around;
-  padding-bottom: 10px;
 }
 .grid-container .grid-section .proj-bg-img {
   display: block;
+  margin-top: 25px;
   width: 100%;
   border-radius: 5px;
 }
 .grid-container .grid-section p {
   display: block;
+  padding: 0px;
+}
+.grid-container .grid-section .techstack {
+  padding: 0;
 }
 
 .skills-container {

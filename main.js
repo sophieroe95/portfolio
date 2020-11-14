@@ -15,13 +15,16 @@ const createProjectHTML = (projectObject) => {
       <div class="grid-section">
             <div class="image-title">${projectObject.title}<div class="mobile-text">${projectObject.text}</div>
             </div>
-            <div class="icon-container"><a href="${projectObject.openGithub}" target="_blank"><i
-                        class="code far fa-file-code fa-2x"></i></a>
-                <a href="${projectObject.openPage}" target="_blank"><i
-                        class="code fas fa-rocket fa-2x"></i></a></div>
+           
             <img class="proj-bg-img" src="${projectObject.image}" alt="${projectObject.title}">
             <p class="image-description">${projectObject.text}
         </p>
+        <p class="techstack">${projectObject.techstack}
+        </p>
+        <div class="icon-container"><a href="${projectObject.openGithub}" target="_blank"><i
+        class="code far fa-file-code fa-2x"></i></a>
+<a href="${projectObject.openPage}" target="_blank"><i
+        class="code fas fa-rocket fa-2x"></i></a></div>
         </div>
       `;
 };
@@ -47,6 +50,7 @@ const createSkillsHTML = (skillObject) => {
             </div>
             <p class="image-description">${skillObject.text}
         </p>
+        
         </div>
       `;
 };

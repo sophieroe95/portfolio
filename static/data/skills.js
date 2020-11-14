@@ -5,11 +5,11 @@ const skills = [
       },
       {
         title: "Front-end Libraries & Frameworks:",
-        text: "SASS, React, Bootstrap, jQuery",
+        text: "Sass, React, Bootstrap, jQuery",
       },
       {
         title: "Back-end Development:",
-        text: "Firebase (Authorisation, Storage, Database, Hosting), Node.js & Express, Angular.",
+        text: "Firebase (Authorisation, Database, Hosting), Node.js & Express, Angular.",
       },
       {
         title: "Core Skills:",
