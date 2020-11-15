@@ -68,7 +68,7 @@ const projects = [{
     techstack: "*Hosted Site not yet available*. Tech Stack: ReactJS, CSS, Sass, REST APIs, Postman, Node.js & Express, Firestore - CRUD, MongoDB.",
     image: "./static/img/project9.png",
     openGithub: "https://github.com/sophieroe95/travel-list",
-    openPage: "",
+    openPage: "https://travel-list-6d0f5.web.app/",
   },
   {
     title: "Client Project: No1 South East",

@@ -66,7 +66,7 @@ var projects = [{
   techstack: "*Hosted Site not yet available*. Tech Stack: ReactJS, CSS, Sass, REST APIs, Postman, Node.js & Express, Firestore - CRUD, MongoDB.",
   image: "./static/img/project9.png",
   openGithub: "https://github.com/sophieroe95/travel-list",
-  openPage: ""
+  openPage: "https://travel-list-6d0f5.web.app/"
 }, {
   title: "Client Project: No1 South East",
   text: "Week 6-10: In a team of 9 _nologists, we built a progressive web app giving members exclusive deals for South East London's independent restaurants. I was responsible for: communicating with the PO, participating in daily scrums and retrospectives, pair programming and delivering tickets for each one week sprint. I really enjoyed the teamwork and solving the daily problems of working on different features in the app.",
