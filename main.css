@@ -74,6 +74,9 @@ header h2 {
     align-items: center;
     width: 100%;
   }
+  .navbar .navbar-links ul li a:hover {
+    color: #3dfaff;
+  }
   .navbar .navbar-links.active {
     display: flex;
     flex-direction: column;
@@ -266,9 +269,6 @@ header h2 {
   display: block;
   padding: 0px;
 }
-.grid-container .grid-section .techstack {
-  padding: 0;
-}
 
 .skills-container {
   width: 100%;
@@ -287,8 +287,7 @@ header h2 {
   position: relative;
   width: 450px;
   margin: auto;
-  border: 2px solid black;
-  height: 200px;
+  height: 120px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

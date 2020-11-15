@@ -85,7 +85,13 @@ header {
                         justify-content: center;
                         align-items: center;
                         width: 100%;
+
+                        &:hover{
+                            color:#3dfaff;
+                        }
                     }
+
+                    
                 }
             }
         }
@@ -312,10 +318,6 @@ header {
         padding: 0px;
     }
 
-    .techstack {
-        padding: 0;
-    }
-
     }
 }
 
@@ -337,8 +339,7 @@ header {
         position: relative;
         width: 450px;
         margin: auto;
-        border: 2px solid $black;
-        height: 200px;
+        height: 120px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;

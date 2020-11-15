@@ -52,7 +52,7 @@ const projects = [{
     techstack: "Tech Stack: ReactJS, CSS, Sass, Font Awesome, Authentication and Authorisation, Private Routing.",
     image: "./static/img/project7.png",
     openGithub: "https://github.com/sophieroe95/olliedays",
-    openPage: "https://sophieroe95.github.io/olliedays/",
+    openPage: "https://sophiesolliedays.web.app/",
   },
   {
     title: "Brew Dog API",
@@ -63,7 +63,7 @@ const projects = [{
     openPage: "https://sophieroe95.github.io/brew-dog-api/",
   },
   {
-    title: "To Do List",
+    title: "Travel List",
     text: "Week 8 and 9: In week 9 we covered unit testing in React, Firebase - intro and hosting, Firestore - Create, Read, Update, Delete, Authentication and Authorisation and Private Routing. In week 9 we learnt about context, how we should use it and the focus on Provider/Consumer Cycle. We also started learning Node.js for API development. The challenge this week was to build our own Full Stack API to read (GET), create (POST) and delete (DELETE) data using Node.js, Express and MongoDB.",
     techstack: "Tech Stack: ReactJS, CSS, Sass, REST APIs, Postman, Node.js & Express, Firestore - CRUD, MongoDB.",
     image: "./static/img/project9.png",
