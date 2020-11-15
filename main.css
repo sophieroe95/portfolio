@@ -270,6 +270,10 @@ header h2 {
   padding: 0px;
 }
 
+#skills-section header #skills-title {
+  margin-top: 50px;
+}
+
 .skills-container {
   width: 100%;
   height: auto;

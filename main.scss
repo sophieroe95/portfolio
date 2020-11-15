@@ -321,6 +321,13 @@ header {
     }
 }
 
+#skills-section{
+header{
+#skills-title {
+    margin-top: 50px;
+}
+}}
+
 .skills-container {
     width: 100%;
     height: auto;
@@ -333,7 +340,6 @@ header {
     background-color: $black;
     color: white;
     padding: 20px 0px;
-
 
     .grid-section {
         position: relative;
