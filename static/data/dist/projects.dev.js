@@ -39,20 +39,21 @@ var projects = [{
   image: "./static/img/project5.png",
   openGithub: "https://github.com/sophieroe95/morse-code-translator",
   openPage: "https://sophieroe95.github.io/morse-code-translator/"
-}, {
-  title: "Goodcode Presentation",
-  text: "Week 5: Our task was to answer common interview questions through a presentation format to a pretend company 'Goodcode'. Questions were based around: top soft skill strengths, biggest weakness, biggest achievement, where you see yourself in 5 years time and an interesting technological advancement.",
-  techstack: "Skills Learnt: Interpersonal Skills, Personal Effectiveness, Wellbeing, Resilence and Presentation Delivery. ",
-  image: "./static/img/project6.png",
-  openGithub: "",
-  openPage: ""
-}, {
+}, // {
+//   title: "Goodcode Presentation",
+//   text: "Week 5: Our task was to answer common interview questions through a presentation format to a pretend company 'Goodcode'. Questions were based around: top soft skill strengths, biggest weakness, biggest achievement, where you see yourself in 5 years time and an interesting technological advancement.",
+//   techstack: "Skills Learnt: Interpersonal Skills, Personal Effectiveness, Wellbeing, Resilence and Presentation Delivery. ",
+//   image: "./static/img/project6.png",
+//   openGithub: "",
+//   openPage: "",
+// },
+{
   title: "Olliedays",
   text: "Week 6: This week we started learning React, we covered components, passing data as props, mapping over data, React FontAwesome and state. This project was a wireframe challenge. I have also added routing, private routing and authentication which we covered in weeks 7 and 8 respectively.",
   techstack: "Tech Stack: ReactJS, CSS, Sass, Font Awesome, Authentication and Authorisation, Private Routing.",
-  image: "./static/img/project7.png",
-  openGithub: "https://github.com/sophieroe95/olliedays",
-  openPage: "https://sophiesolliedays.web.app/"
+  image: "./static/img/project7.png" // openGithub: "https://github.com/sophieroe95/olliedays",
+  // openPage: "https://sophiesolliedays.web.app/",
+
 }, {
   title: "Brew Dog API",
   text: "Week 7: We next covered routing, functions as props and data requests in React. The friday challenge this week was to build a React App that allowed you to search data fetched from the Brew Dog API.",

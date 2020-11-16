@@ -1,7 +1,7 @@
 const skills = [
     {
         title: "Software Development:",
-        text: "HTML, CSS, JavaScript, Git, Bash, NPM/Yarn, REST APIs, Postman, Authentication & Authorisation, Unit testing (Jest & Enzyme), OOP.",
+        text: "HTML, CSS, JavaScript, Git Bash, NPM/Yarn, REST APIs, Postman, Authentication & Authorisation, Unit testing (Jest & Enzyme), OOP.",
       },
       {
         title: "Front-end Libraries & Frameworks:",
