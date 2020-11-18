@@ -12,7 +12,7 @@ var skills = [{
   text: "Sass, React, Bootstrap, jQuery"
 }, {
   title: "Back-end Development:",
-  text: "Firebase (Authorisation, Database, Hosting), Node.js & Express, Angular."
+  text: "Firebase (Authorisation, Database, Hosting), Node.js & Express."
 }, {
   title: "Core Skills:",
   text: "Agile Management, SCRUM, Project Management, Pair Programming & Collaborations, Remote Work, Public Speaking, use of Trello."

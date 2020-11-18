@@ -9,7 +9,7 @@ const skills = [
       },
       {
         title: "Back-end Development:",
-        text: "Firebase (Authorisation, Database, Hosting), Node.js & Express, Angular.",
+        text: "Firebase (Authorisation, Database, Hosting), Node.js & Express.",
       },
       {
         title: "Core Skills:",
