@@ -202,6 +202,10 @@ header h2 {
   p {
     margin-top: 20px;
   }
+  p a {
+    text-decoration: underline;
+    color: #3dfaff;
+  }
 
   ul {
     margin-top: 20px;
