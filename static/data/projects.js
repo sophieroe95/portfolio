@@ -51,8 +51,8 @@ const projects = [{
     text: "Week 6: This week we started learning React, we covered components, passing data as props, mapping over data, React FontAwesome and state. This project was a wireframe challenge. I have also added routing, private routing and authentication which we covered in weeks 7 and 8 respectively.",
     techstack: "Tech Stack: ReactJS, CSS, Sass, Font Awesome, Authentication and Authorisation, Private Routing.",
     image: "./static/img/project7.png",
-    // openGithub: "https://github.com/sophieroe95/olliedays",
-    // openPage: "https://sophiesolliedays.web.app/",
+    openGithub: "https://github.com/sophieroe95/olliedays",
+    openPage: "https://sophiesolliedays.web.app/",
   },
   {
     title: "Brew Dog API",
@@ -65,7 +65,7 @@ const projects = [{
   {
     title: "Travel List",
     text: "Week 8 and 9: In week 9 we covered unit testing in React, Firebase - intro and hosting, Firestore - Create, Read, Update, Delete, Authentication and Authorisation and Private Routing. In week 9 we learnt about context, how we should use it and the focus on Provider/Consumer Cycle. We also started learning Node.js for API development. The challenge this week was to build our own Full Stack API to read (GET), create (POST) and delete (DELETE) data using Node.js, Express and MongoDB.",
-    techstack: "*Hosted Site not yet available*. Tech Stack: ReactJS, CSS, Sass, REST APIs, Postman, Node.js & Express, Firestore - CRUD, MongoDB.",
+    techstack: "Tech Stack: ReactJS, CSS, Sass, REST APIs, Postman, Node.js & Express, Firestore - CRUD, MongoDB.",
     image: "./static/img/project9.png",
     openGithub: "https://github.com/sophieroe95/travel-list",
     openPage: "https://travel-list-6d0f5.web.app/",
