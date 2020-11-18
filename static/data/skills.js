@@ -13,7 +13,7 @@ const skills = [
       },
       {
         title: "Core Skills:",
-        text: "Agile Management, SCRUM, Project Management, Pair Programming & Collaborations, Remote Work, Public Speaking, use of Trello.",
+        text: "Agile Management, Scrum, Project Management, Pair Programming & Collaborations, Remote Work, Public Speaking, use of Trello.",
       }
 ];
 

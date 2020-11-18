@@ -15,7 +15,7 @@ var skills = [{
   text: "Firebase (Authorisation, Database, Hosting), Node.js & Express."
 }, {
   title: "Core Skills:",
-  text: "Agile Management, SCRUM, Project Management, Pair Programming & Collaborations, Remote Work, Public Speaking, use of Trello."
+  text: "Agile Management, Scrum, Project Management, Pair Programming & Collaborations, Remote Work, Public Speaking, use of Trello."
 }];
 var _default = skills;
 exports["default"] = _default;
