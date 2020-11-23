@@ -564,6 +564,13 @@ footer .fab {
   /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
 }
+.img-container img .grid-container .grid-section {
+  height: 530px;
+}
+.img-container img .grid-container .grid-section .icon-container {
+  top: 10%;
+  padding-bottom: 10px;
+}
 
 @media screen and (min-width: 1200px) {
   .home .home-container article p {
