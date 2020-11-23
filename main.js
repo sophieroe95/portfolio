@@ -13,9 +13,7 @@ toggleButton.addEventListener('click', () => {
 const createProjectHTML = (projectObject) => {
   return `
       <div class="grid-section">
-            <div class="image-title">${projectObject.title}<div class="mobile-text">${projectObject.text}</div>
-            </div>
-           
+            <div class="image-title">${projectObject.title}</div>
             <img class="proj-bg-img" src="${projectObject.image}" alt="${projectObject.title}">
             <p class="image-description">${projectObject.text}
         </p>
