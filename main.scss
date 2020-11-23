@@ -633,7 +633,10 @@ footer {
     .grid-section {
         grid-template-columns: 1fr 1fr;
         height: 700px;
-        
+        .icon-container{
+            top: 10%;
+            padding-bottom: 10px;
+        }
     }
     }
 

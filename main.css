@@ -530,6 +530,10 @@ footer .fab {
     grid-template-columns: 1fr 1fr;
     height: 700px;
   }
+  .grid-container .grid-section .icon-container {
+    top: 10%;
+    padding-bottom: 10px;
+  }
 
   .skills {
     grid-template-columns: 1fr 1fr 1fr;
