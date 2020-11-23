@@ -524,7 +524,7 @@ footer .fab {
 
   .grid-container .grid-section {
     grid-template-columns: 1fr 1fr;
-    height: 1100px;
+    height: 1200px;
   }
   .grid-container .grid-section .icon-container {
     top: 10%;
