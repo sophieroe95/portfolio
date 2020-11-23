@@ -273,7 +273,7 @@ header {
         width: 450px;
         margin: auto;
         border: 2px solid $black;
-        height: 530px;
+        height: 650px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -626,8 +626,11 @@ footer {
 
     }
 
+    .grid-container{
     .grid-section {
         grid-template-columns: 1fr 1fr;
+        height: 530px;
+    }
     }
 
     .skills {
@@ -687,60 +690,6 @@ footer {
 
     .image-title .mobile-text {
         display: none;
-    }
-
-    .image-overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.6);
-        color: $white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        transition: opacity 0.25s;
-
-        /* target every direct child of the div with this class */
-        * {
-            transform: translateY(20px);
-            transition: 0.25s;
-        }
-
-        &:hover {
-            opacity: 1;
-            border-radius: 5px;
-
-            * {
-                transform: translateY(20px);
-            }
-        }
-
-
-        .image-description {
-            margin-top: 0.3em;
-            display: block;
-        }
-
-        .icon-container {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            flex-direction: row;
-            align-items: flex-end;
-            justify-content: space-around;
-            padding-bottom: 10px;
-        }
-    }
-
-    .blur {
-        backdrop-filter: blur(5px);
     }
 }
 
