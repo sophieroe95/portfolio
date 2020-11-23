@@ -230,12 +230,13 @@ header h2 {
   width: 450px;
   margin: auto;
   border: 2px solid black;
-  height: 900px;
+  height: 1100px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   background-color: black;
+  padding: 10px, 0px;
 }
 .grid-container .grid-section .image-title {
   position: absolute;
