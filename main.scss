@@ -630,10 +630,7 @@ footer {
     .grid-section {
         grid-template-columns: 1fr 1fr;
         height: 530px;
-        .icon-container{
-            top: 10%;
-            padding-bottom: 0;
-        }
+        
     }
     }
 
@@ -691,9 +688,9 @@ footer {
 }
 
 .grid-container .grid-section {
-
-    .image-title .mobile-text {
-        display: none;
+    .icon-container{
+        top: 10%;
+        padding-bottom: 0;
     }
 }
 

@@ -526,10 +526,6 @@ footer .fab {
     grid-template-columns: 1fr 1fr;
     height: 530px;
   }
-  .grid-container .grid-section .icon-container {
-    top: 10%;
-    padding-bottom: 0;
-  }
 
   .skills {
     grid-template-columns: 1fr 1fr 1fr;
@@ -565,8 +561,9 @@ footer .fab {
   filter: grayscale(0%);
 }
 
-.grid-container .grid-section .image-title .mobile-text {
-  display: none;
+.grid-container .grid-section .icon-container {
+  top: 10%;
+  padding-bottom: 0;
 }
 
 @media screen and (min-width: 1200px) {
