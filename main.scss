@@ -545,12 +545,7 @@ footer {
             }
         }
     }
-    .grid-container .grid-section {
-        .icon-container{
-            top: 10%;
-            padding-bottom: 0;
-        }
-    }
+  
 }
 
 @media screen and (min-width: 800px) {
@@ -693,8 +688,6 @@ footer {
 }
 
 
-
-
 @media screen and (min-width: 1200px) {
     .home .home-container {
 
@@ -717,6 +710,13 @@ footer {
             }
         }
 
+    }
+}
+
+.grid-container .grid-section {
+    .icon-container{
+        top: 10%;
+        padding-bottom: 0;
     }
 }
 
