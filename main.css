@@ -456,14 +456,6 @@ footer .fab {
     display: none;
     color: white;
   }
-
-  .grid-container .grid-section {
-    height: 1000px;
-  }
-  .grid-container .grid-section .icon-container {
-    top: 10%;
-    padding-bottom: 10px;
-  }
 }
 @media screen and (min-width: 800px) {
   .navbar {
