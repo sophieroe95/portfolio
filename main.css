@@ -212,7 +212,7 @@ header h2 {
   }
 }
 /*projects and skills section */
-.grid-container {
+#projects-section .grid-container {
   width: 100%;
   height: auto;
   display: grid;
@@ -225,7 +225,7 @@ header h2 {
   color: white;
   padding: 20px 0px;
 }
-.grid-container .grid-section {
+#projects-section .grid-container .grid-section {
   position: relative;
   width: 450px;
   margin: auto;
@@ -238,7 +238,7 @@ header h2 {
   background-color: black;
   padding: 10px, 0px;
 }
-.grid-container .grid-section .image-title {
+#projects-section .grid-container .grid-section .image-title {
   position: absolute;
   top: 0;
   left: 0;
@@ -253,7 +253,7 @@ header h2 {
   align-items: center;
   justify-content: flex-start;
 }
-.grid-container .grid-section .icon-container {
+#projects-section .grid-container .grid-section .icon-container {
   position: absolute;
   top: 0;
   left: 0;
@@ -265,13 +265,13 @@ header h2 {
   justify-content: space-around;
   padding-bottom: 10px;
 }
-.grid-container .grid-section .proj-bg-img {
+#projects-section .grid-container .grid-section .proj-bg-img {
   display: block;
   margin-top: 25px;
   width: 100%;
   border-radius: 5px;
 }
-.grid-container .grid-section p {
+#projects-section .grid-container .grid-section p {
   display: block;
   padding: 0px;
 }
