@@ -713,6 +713,14 @@ footer {
     }
 }
 
+.grid-container .grid-section
+{
+    height: 700px;
+    .icon-container{
+        top: 10%;
+        padding-bottom: 10px;
+    }
+}
 
 @media screen and (min-width: 1400px) {
     .home .home-container {
@@ -736,13 +744,6 @@ footer {
             }
         }
 
-    }
-
-    .grid-container .grid-section {
-        .icon-container{
-            top: 10%;
-            padding-bottom: 0;
-        }
     }
 }
 
