@@ -456,6 +456,11 @@ footer .fab {
     display: none;
     color: white;
   }
+
+  .grid-container .grid-section .icon-container {
+    top: 10%;
+    padding-bottom: 0;
+  }
 }
 @media screen and (min-width: 800px) {
   .navbar {
@@ -559,11 +564,6 @@ footer .fab {
   -webkit-filter: grayscale(0%);
   /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
-}
-
-.grid-container .grid-section .icon-container {
-  top: 10%;
-  padding-bottom: 0;
 }
 
 @media screen and (min-width: 1200px) {
