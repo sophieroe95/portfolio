@@ -21,10 +21,8 @@ const createProjectHTML = (projectObject) => {
         </p>
         <p class="techstack">${projectObject.techstack}
         </p>
-        <div class="icon-container"><a href="${projectObject.openGithub}" target="_blank"><i
-        class="code far fa-file-code fa-2x"></i></a>
-<a href="${projectObject.openPage}" target="_blank"><i
-        class="code fas fa-rocket fa-2x"></i></a></div>
+        <div class="icon-container"><a href="${projectObject.openGithub}" target="_blank"><i class="code far fa-file-code fa-2x"></i></a>
+        <a href="${projectObject.openPage}" target="_blank"><i class="code fas fa-rocket fa-2x"></i></a></div>
         </div>
       `;
 };
