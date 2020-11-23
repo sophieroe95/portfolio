@@ -230,7 +230,7 @@ header h2 {
   width: 450px;
   margin: auto;
   border: 2px solid black;
-  height: 900px;
+  height: 1400px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -524,7 +524,7 @@ footer .fab {
 
   .grid-container .grid-section {
     grid-template-columns: 1fr 1fr;
-    height: 1000px;
+    height: 1100px;
   }
   .grid-container .grid-section .icon-container {
     top: 10%;
