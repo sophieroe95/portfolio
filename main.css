@@ -575,15 +575,15 @@ footer .fab {
       width: 60%;
     }
   }
-}
-.grid-container .grid-section {
-  height: 700px;
-}
-.grid-container .grid-section .icon-container {
-  top: 10%;
-  padding-bottom: 10px;
-}
 
+  .grid-container .grid-section {
+    height: 700px;
+  }
+  .grid-container .grid-section .icon-container {
+    top: 10%;
+    padding-bottom: 10px;
+  }
+}
 @media screen and (min-width: 1400px) {
   .home .home-container article p {
     width: 800px;
