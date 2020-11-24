@@ -230,7 +230,7 @@ header h2 {
   width: 450px;
   margin: auto;
   border: 2px solid black;
-  height: 700px;
+  height: 530px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -255,7 +255,7 @@ header h2 {
 }
 #projects-section .grid-container .grid-section .icon-container {
   position: absolute;
-  top: 30px;
+  top: 55px;
   left: 0;
   width: 100%;
   height: 100%;
@@ -568,7 +568,7 @@ footer .fab {
   height: 530px;
 }
 .img-container img #grid-section .grid-container .grid-section .icon-container {
-  top: 10%;
+  top: 55px;
   padding-bottom: 10px;
 }
 
