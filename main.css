@@ -523,7 +523,7 @@ footer .fab {
   }
 
   #projects-section .grid-container .grid-section {
-    height: 700px;
+    height: 750px;
   }
   #projects-section .grid-container .grid-section .icon-container {
     top: 55px;
@@ -562,10 +562,11 @@ footer .fab {
   /* Safari 6.0 - 9.0 */
   filter: grayscale(0%);
 }
-.img-container img #grid-section .grid-container .grid-section {
+
+#projects-section .grid-container .grid-section {
   height: 530px !important;
 }
-.img-container img #grid-section .grid-container .grid-section .icon-container {
+#projects-section .grid-container .grid-section .icon-container {
   top: 55px !important;
   padding-bottom: 0px !important;
 }

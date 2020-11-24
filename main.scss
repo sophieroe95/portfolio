@@ -627,7 +627,7 @@ footer {
     }
 
     #projects-section .grid-container .grid-section {
-        height: 700px;
+        height: 750px;
 
         .icon-container{
             top: 55px;
@@ -685,12 +685,13 @@ footer {
         filter: grayscale(0%);
     }
 
-    #grid-section .grid-container .grid-section {
-        height: 530px !important;
-    .icon-container {
-        top: 55px !important;
-        padding-bottom: 0px !important;
-    }
+   
+}
+#projects-section .grid-container .grid-section {
+    height: 530px !important;
+.icon-container {
+    top: 55px !important;
+    padding-bottom: 0px !important;
 }
 }
 
