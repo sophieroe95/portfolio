@@ -255,7 +255,7 @@ header h2 {
 }
 #projects-section .grid-container .grid-section .icon-container {
   position: absolute;
-  top: 50px;
+  top: 0;
   left: 0;
   width: 100%;
   height: 100%;
@@ -524,6 +524,9 @@ footer .fab {
 
   #projects-section .grid-container .grid-section {
     height: 530px;
+  }
+  #projects-section .grid-container .grid-section .icon-container {
+    top: 55px;
   }
 
   .skills {
