@@ -298,7 +298,7 @@ header {
 
         .icon-container {
             position: absolute;
-            top: 55px;
+            top: 50px;
             left: 0;
             width: 100%;
             height: 100%;
@@ -626,17 +626,10 @@ footer {
 
     }
 
-    #grid-section 
-    .grid-container
-    .grid-section {
-        grid-template-columns: 1fr 1fr;
-        height: 1200px;
-        .icon-container{
-            top: 10%;
-            padding-bottom: 10px;
-        }
+    #projects-section .grid-container .grid-section {
+        height: 530px;
     }
-
+    
     .skills {
         grid-template-columns: 1fr 1fr 1fr;
 
@@ -688,14 +681,11 @@ footer {
         filter: grayscale(0%);
     }
 
-    #grid-section 
-    .grid-container 
-    .grid-section
-    {
-        height: 530px;
-    .icon-container{
-        top: 55px;
-        padding-bottom: 10px;
+    #grid-section .grid-container .grid-section {
+        height: 530px !important;
+    .icon-container {
+        top: 55px !important;
+        padding-bottom: 0px !important;
     }
 }
 }
