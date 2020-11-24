@@ -272,7 +272,7 @@ header {
         width: 450px;
         margin: auto;
         border: 2px solid $black;
-        height: 600px;
+        height: 700px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -626,8 +626,8 @@ footer {
 
     }
 
-    #grid-section {
-    .grid-container{
+    #grid-section 
+    .grid-container
     .grid-section {
         grid-template-columns: 1fr 1fr;
         height: 1200px;
@@ -635,8 +635,6 @@ footer {
             top: 10%;
             padding-bottom: 10px;
         }
-    }
-}
     }
 
     .skills {
@@ -646,7 +644,6 @@ footer {
             width: 300px;
         }
     }
-
 }
 
 @media screen and (min-width: 1000px) {
@@ -692,8 +689,8 @@ footer {
     }
 
     #grid-section 
-    {.grid-container 
-    {.grid-section
+    .grid-container 
+    .grid-section
     {
         height: 530px;
     .icon-container{
@@ -701,8 +698,6 @@ footer {
         padding-bottom: 10px;
     }
 }
-}
-    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -729,8 +724,8 @@ footer {
 
     }
     #grid-section 
-    {.grid-container 
-    {.grid-section
+    .grid-container 
+    .grid-section
     {
         height: 530px;
     .icon-container{
@@ -738,8 +733,6 @@ footer {
         padding-bottom: 10px;
     }
 }
-}
-    }
 }
 
 @media screen and (min-width: 1400px) {
