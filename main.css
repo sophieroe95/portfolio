@@ -230,7 +230,7 @@ header h2 {
   width: 450px;
   margin: auto;
   border: 2px solid black;
-  height: 700px;
+  height: 600px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
