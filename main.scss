@@ -625,14 +625,6 @@ footer {
         }
 
     }
-
-    #projects-section .grid-container .grid-section {
-        height: 750px;
-
-        .icon-container{
-            top: 55px;
-        }
-    }
     
     .skills {
         grid-template-columns: 1fr 1fr 1fr;
@@ -643,7 +635,7 @@ footer {
     }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1100px) {
     .home {
         background-image: url(./assets/home-background.jpg);
 
@@ -718,16 +710,6 @@ footer {
         }
 
     }
-    #grid-section 
-    .grid-container 
-    .grid-section
-    {
-        height: 530px;
-    .icon-container{
-        top: 10%;
-        padding-bottom: 10px;
-    }
-}
 }
 
 @media screen and (min-width: 1400px) {
