@@ -73,7 +73,7 @@ const projects = [{
   {
     title: "Client Project: No1 South East",
     text: "Week 6-10: In a team of 9 _nologists, we built a progressive web app giving members exclusive deals for South East London's independent restaurants. I was responsible for: communicating with the PO, participating in daily scrums and retrospectives, pair programming and delivering tickets for each one week sprint. I really enjoyed the teamwork and solving the daily problems of working on different features in the app.",
-    techstack: "Tech Stack: ReactJS, jQuery, CSS, Sass, Font Awesome, Google Maps API, Authentication and Authorisation, Private Routing, Firestore - CRUD, Unit testing (Enzyme), Trello, SCRUM, Agile Working .",
+    techstack: "Tech Stack: ReactJS, jQuery, CSS, Sass, Font Awesome, Google Maps API, Authentication and Authorisation, Private Routing, Firestore - CRUD, Unit testing (Enzyme), Trello, SCRUM, Agile Working.",
     image: "./static/img/project10.png",
     openGithub: "https://github.com/nology-tech/no1-south-east",
     openPage: "https://no1southeast.web.app/",
