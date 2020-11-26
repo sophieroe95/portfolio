@@ -9,8 +9,8 @@ var projects = [{
   text: "Week 0: I built this website for the pre-course work for _nology. The website introduces myself to my peers on the course, including my background and hobbies. I learnt basic HTML, CSS and JavaScript via a list of recommended YouTube videos, to build the website. This was good preparatory learning for the course.",
   image: "./static/img/project1.png",
   techstack: "Tech Stack: HTML, CSS, JavaScript.",
-  openGithub: "https://github.com/sophieroe95/nology-challenge",
-  openPage: "https://sophieroe95.github.io/nology-challenge/"
+  openGithub: "https://github.com/sophieroe95/pre-course-work",
+  openPage: "https://sophieroe95.github.io/pre-course-work/"
 }, {
   title: "This portfolio",
   text: "Week 1 and 2: At the start of the course we covered HTML and CSS best practice, CSS Grid and Flexbox, linking to other pages, SASS and responsive design, and linking to CDNs. We started to learn about form validation using Javascript. We also learnt to use Git, GitHub and GitHub pages to host our site, save our work and conduct code reviews. During project time we designed and built our project hosting sites.",
