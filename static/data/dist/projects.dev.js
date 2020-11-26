@@ -27,7 +27,7 @@ var projects = [{
   openPage: "https://sophieroe95.github.io/calculator/"
 }, {
   title: "Minesweeper Game",
-  text: "Week 4: This week covered JS Looping Over Objects, Mixing Complex Data Types, JS Classes, JS Unit Testing with Jest, and JS Asynchronous Calls and Promises. While making my minesweeper game I learnt more about dynamically inserting HTML with JS, recursion, the Time object and using inbuilt JS methods.",
+  text: "Week 4: This week covered JS Looping Over Objects, Mixing Complex Data Types, JS Classes, JS Unit Testing with Jest, and JS Asynchronous Calls and Promises. While making my minesweeper game I learnt more about dynamically inserting HTML with JS, recursion, the Time object and using inbuilt JS methods (desktop only).",
   techstack: "Tech stack: HTML, CSS, Sass, JavaScript.",
   image: "./static/img/project4.png",
   openGithub: "https://github.com/sophieroe95/minesweeper",
