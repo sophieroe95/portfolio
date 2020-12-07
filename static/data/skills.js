@@ -5,7 +5,7 @@ const skills = [
       },
       {
         title: "Front-end Libraries & Frameworks:",
-        text: "Sass, React, Bootstrap, jQuery",
+        text: "Sass, React, Bootstrap, jQuery.",
       },
       {
         title: "Back-end Development:",
