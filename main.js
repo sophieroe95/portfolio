@@ -1,27 +1,38 @@
 import allProjects from "./static/data/projects.js";
 import allSkills from "./static/data/skills.js";
 
-const toggleButton = document.getElementsByClassName('toggle-button')[0];
-const navbarLinks = document.getElementsByClassName('navbar-links')[0];
+const toggleButton = document.getElementsByClassName("toggle-button")[0];
+const navbarLinks = document.getElementsByClassName("navbar-links")[0];
 
 // added using the toggle with an active class to avoid 'if'
-toggleButton.addEventListener('click', () => {
+toggleButton.addEventListener("click", () => {
   // get navbar - access all the different classes on it - toggle active class
-  navbarLinks.classList.toggle('active');
-})
+  navbarLinks.classList.toggle("active");
+});
 
 const createProjectHTML = (projectObject) => {
+  const githubLink = `<a href="${projectObject.openGithub}" target="_blank">
+  <i class="code far fa-file-code fa-2x"></i>
+  </a>`;
+  const projectLink = `<a href="${projectObject.openPage}" target="_blank">
+  <i class="code fas fa-rocket fa-2x"></i>
+  </a>`;
+
   return `
       <div class="grid-section">
             <div class="image-title">${projectObject.title}</div>
-            <img class="proj-bg-img" src="${projectObject.image}" alt="${projectObject.title}">
+            <img class="proj-bg-img" src="${projectObject.image}" alt="${
+    projectObject.title
+  }">
             <div><p class="image-description">${projectObject.text}
         </p>
         <p class="techstack">${projectObject.techstack}
         </p>
         <div>
-        <div class="icon-container"><a href="${projectObject.openGithub}" target="_blank"><i class="code far fa-file-code fa-2x"></i></a>
-        <a href="${projectObject.openPage}" target="_blank"><i class="code fas fa-rocket fa-2x"></i></a></div>
+        <div class="icon-container">
+        ${projectObject.openGithub !== undefined ? githubLink : ""}
+        ${projectObject.openPage !== undefined ? projectLink : ""}
+        </div>
         </div>
       `;
 };
