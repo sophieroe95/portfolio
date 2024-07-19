@@ -1,22 +1,20 @@
 const skills = [
-    {
-        title: "Software Development:",
-        text: "HTML, CSS, JavaScript, Git Bash, NPM/Yarn, REST APIs, Postman, Authentication & Authorisation, Unit testing (Jest & Enzyme), OOP.",
-      },
-      {
-        title: "Front-end Libraries & Frameworks:",
-        text: "Sass, React, Bootstrap, jQuery.",
-      },
-      {
-        title: "Back-end Development:",
-        text: "Firebase (Authorisation, Database, Hosting), Node.js & Express.",
-      },
-      {
-        title: "Core Skills:",
-        text: "Agile Management, Scrum, Project Management, Pair Programming & Collaborations, Remote Work, Public Speaking, use of Trello.",
-      }
+  {
+    title: "Application Development:",
+    text: "HTML, CSS, JavaScript, React, Remix, TypeScript, Git, GitHub, GitLab, Jira, Zod, Express, Material UI, Blueprint, D3, Leaflet, Turf, Oracle APEX",
+  },
+  {
+    title: "Testing:",
+    text: "Playwright, Jest, Cypress, Vitest, Synk, SonarQube",
+  },
+  {
+    title: "Back-end Development:",
+    text: "Node, PostgreSQL, SQL Server, SQLite, Prisma, Oracle SQL Developer",
+  },
+  {
+    title: "CI/CD:",
+    text: "Docker, Vite, Fly.io, Agile",
+  },
 ];
 
 export default skills;
- 
-  
