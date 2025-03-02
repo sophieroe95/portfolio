@@ -1,5 +1,23 @@
 const projects = [
   {
+    title: "Techmodal: Amoeba",
+    text: "Amoeba, built using Remix, applies complex calculations to ascertain transit times from points dropped on a map. I led the front-end development by producing a wireframe of an optimal user interface, created and prioritised GitHub issues and led review meetings with the Product Owner. I produced reusable components, helped team members with issues and reviewed pull requests. I aided in the amoeba creation function using Dijkstra's algorithm considering the curvature of the earth, no access zones and visualisation on a Leaflet Map using the Web Mercator projection.",
+    image: "./static/img/anti-access-zones.png",
+    techstack: "Tech Stack: Typescript, Remix, SQLite, Prisma, Docker.",
+  },
+  {
+    title: "Techmodal: Fuel Pipeline",
+    text: "The Fuel Pipeline application was built to model fuel consumption and transfer across the UK Government’s fuel pipeline system. The application enables users to calibrate storage facility and pipe parameters, modify network priorities, and run comprehensive what-if scenarios. The tool provides critical insights into network operations, helping to optimise fuel distribution and enhance decision-making processes.",
+    image: "./static/img/auto-play.gif",
+    techstack: "Tech Stack: Typescript, Remix, PostgreSQL, Prisma, Docker.",
+  },
+  {
+    title: "Techmodal: Desk Booking",
+    text: "The app enables employees to book desks ahead of time in a hotdesking environment and know where their colleagues are sitting to enable collaborative working. It also shows HR analytics of office utilisation and whether there are sufficient first aiders and fire marshals in the office each day. It allows certain users to book seats for guests and book reserved desks. I assisted in creating the floorplan component from a Figma design exported as an SVG, with Material UI components, user avatars and click handlers. We used a mobile first design so employees can use the application on any device.",
+    image: "./static/img/booking.png",
+    techstack: "Tech Stack: Typescript, Remix, SQLite, Prisma, Docker.",
+  },
+  {
     title: "Pre-course Work",
     text: "Week 0: I built this website for the pre-course work for _nology. The website introduces myself to my peers on the course, including my background and hobbies. I learnt basic HTML, CSS and JavaScript via a list of recommended YouTube videos, to build the website. This was good preparatory learning for the course.",
     image: "./static/img/project1.png",
